@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="firstsection">
+        <div class="left">
+            Ayush's Portfolio
+        </div>
+        <div class="right">
+            <ol>
+                <a href="#"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#secondsection"><li>Experience</li></a>
+                <a href="#thirdsection"><li>Projects</li></a>
+                <a href="#contact"><li>Contact Me</li></a>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="firstsection">
+        <div class="left"><div class="text"><div>Hello! I am <span class="red">Ayush Singh</span></div> <div>I am a passionate</div> <span id="element" class="red"></span></div></div>
+        <div class="right"><img style="width: 30vw; height: 80vh; margin-top: -7%;" src="me.jpg" alt="my photo"></div>
+    </div>
+    
+    <div class="secondsection" id="secondsection">
+        <span class="hidden">What I have learned so far</span>
+        <h1 >Experience</h1>
+        <hr style="color: white; margin-left: 30px; margin-right: 30px;">
+        <div class="experiences">
+            <div style="background-color: white; height: 55px; width: 1px; margin-right: 3px;"></div>
+            <dt class="experience1 red hidden">JAVA</dt>
+            <dd class="hidden">I am currently learning Java , i have covered almost all the core concept and currently learning collection framework and also have done many projects using java that will be mentioned further in this portfolio website.</dd>
+        </div>
+        <div class="experiences">
+            <div style="background-color: white; height: 55px; width: 1px; margin-right: 3px;"></div>
+            <dt class="experience1 red hidden" style="width: 30vw;">C/C++</dt>
+            <dd class="hidden">I have learned C and C++ in my first and second semester in College. due to its fast compilation and usability i am in love with this language.</dd>
+        </div>
+        <div class="experiences">
+            <div style="background-color: white; height: 55px; width: 1px; margin-right: 3px;"></div>
+            <dt class="experience1 red hidden" style="width: 30vw;">JAVASCRIPT</dt>
+            <dd class="hidden">It is a server and user side scripting language and we can use it in web developement.I have learned javascript recently and trying to get experience in it by making these type of projects.</dd>
+        </div>
+        <div class="experiences">
+            <div style="background-color: white; height: 55px; width: 1px; margin-right: 3px;"></div>
+            <dt class="experience1 red hidden" style="width: 30vw;">PYTHON</dt>
+            <dd class="hidden">I also know PYTHON programming language and also have done some intresting projects using it <hint class="red">HINT:</hint> AI PROJECTS.</dd>
+        </div>
+        <div class="experiences">
+            <div style="background-color: white; height: 55px; width: 1px; margin-right: 3px;"></div>
+            <dt class="experience1 red hidden" style="width: 33vw;">BASIC OF AI</dt>
+            <dd class="hidden">Nueral Networks,Generative AI,Large Language Models (LLMs),<etc class="red">e.t.c</etc></dd>
+        </div>
+    </div>
+
+    <div class="thirdsection" id="thirdsection">
+         <h1>Projects</h1>
+         <span class="hidden gtl">with github links</span>
+         <hr style="color: white; margin-left: 30px; margin-right: 30px; position: relative; top: -7%;">
+         <div class="projects">
+            <div class="Ptitle hidden2">JARVIS Using Python</div> 
+
+        <div class="description">
+                <dt class="purple hidden" style="font-size: 30px;">Imported Libraries:</dt>
+                <dd style="line-height: 30px;" >
+                    <pre><span class="pre">
+    <t class="purple hidden2">speech_recognition (as sr):</t> <t class="hidden2"> Used for speech recognition (STT).</t>
+    <t class="purple hidden2">webbrowser:</t> <t class="hidden2"> Allows you to open web URLs.</t> 
+    <t class="purple hidden2">pyttsx3:</t> <t class="hidden2"> Provides text-to-speech functionality.</t> 
+    <t class="purple hidden2">musiclibrary:</t> <t class="hidden2"> Presumably contains a custom music library (not a standard Python library). </t>
+    <t class="purple hidden2">requests:</t> <t class="hidden2"> Used for making HTTP requests (e.g., fetching news headlines).</t> 
+    <t class="purple hidden2">Groq:</t> <t class="hidden2"> A library for interacting with the Groq API.</t></span></pre></dd>
+
+                <dt class="purple hidden" style="font-size: 30px;">Functions Defined:</dt>
+                <dd class="hidden2">The script initializes the virtual assistant (JARVIS) and listens for activation (“jarvis”).
+                   <dt style="margin-left: 40px;" class="purple hidden2">Upon activation, it listens for user commands and processes them accordingly:</dt>
+                     <dd style="line-height: 30px;" ><ol>
+                        <li class="hidden2">If recognized commands match predefined actions (e.g., opening websites or playing music), it executes those actions.</li>
+                        <li class="hidden2">Otherwise, it delegates the query to the Llama 3 model via the Groq API and speaks the generated response.</li>
+                        <li class="hidden2">we can also open different website like <youtube style="color: red;">Youtube</youtube> , <linkedin style="color: blue;">Linkedin</linkedin> , <facebook style="color: rgb(0, 76, 255);">Facebook</facebook> e.t.c (in future,i am going to add more websites) by simply listening to a voice command which contains "open website-name".</li>
+                      </ol></dd>
+                </dd>    
+            </div>
+            <div class="link"><a target="_blank" href="https://github.com/Ayush-singh141/Jarvis_Using_Python.git"><button class="button"> 
+                <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <title>github</title> <rect fill="none" height="24" width="24"></rect> <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z"></path> </g></svg>
+                GitHub Link 
+                </button></a></div>       
+        </div>
+        <div class="projects2">
+            <div class="Ptitle2 hidden2">AI Chatbot using java</div>
+            <div class="description">
+                <dt class="purple hidden" style="font-size: 30px;">Overview:</dt>
+                <dd>
+                    <ul style="line-height: 35px;">
+                        <li class="hidden2">This chatbot is built using Java and operates in the terminal.</li>
+                        <li class="hidden2">It leverages the Groq API, which utilizes the LLaMA3 AI model.</li>
+                    </ul>
+                </dd>
+
+                <dt class="purple hidden" style="font-size: 30px;">Functionality:</dt>
+                <dd>
+                    <ol style="line-height: 35px;">
+                        <li class="hidden2">The chatbot interacts with the user by accepting input commands.</li>
+                        <li class="hidden2">It sends these commands to the Groq API for processing.</li>
+                        <li class="hidden2">The API responds with the chatbot’s generated message.</li>
+                        <li class="hidden2">The program then displays the chatbot's generated message to the user on the terminal.</li>
+                    </ol>
+                </dd>
+
+                <dt class="purple hidden" style="font-size: 30px;">Key Components:</dt>
+                <dd>
+                    <ol style="line-height: 35px;">
+                        <li class="hidden2"> <t class="purple"> main method:</t> The entry point of the program.</li>
+                        <li class="hidden2"> <t class="purple">User input:</t> Captured using Scanner.</li>
+                        <li class="hidden2"> <t class="purple">API communication:</t> Utilizes HTTP POST requests to the Groq API.</li>
+                        <li class="hidden2"> <t class="purple">Response extraction:</t> Parses the API response to extract the chatbot’s message.</li>
+                    </ol>
+                </dd> 
+
+                <dt class="purple hidden" style="font-size: 30px;">How it executes?:</dt>
+                <dd>
+                    <ul style="line-height: 35px;">
+                        <li class="hidden2">The chatbot continuously prompts the user for input after every response.</li>
+                        <li class="hidden2">It displays the chatbot’s response after processing the user’s command.</li>
+                    </ul>
+                </dd>
+
+                <div class="link"><a target="_blank" href="https://github.com/Ayush-singh141/Code_Alpha_Artificial_Intelligence_Chatbot.git"><button class="button"> 
+                    <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-width="0" id="SVGRepo_bgCarrier"></g><g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g><g id="SVGRepo_iconCarrier"> <title>github</title> <rect fill="none" height="24" width="24"></rect> <path d="M12,2A10,10,0,0,0,8.84,21.5c.5.08.66-.23.66-.5V19.31C6.73,19.91,6.14,18,6.14,18A2.69,2.69,0,0,0,5,16.5c-.91-.62.07-.6.07-.6a2.1,2.1,0,0,1,1.53,1,2.15,2.15,0,0,0,2.91.83,2.16,2.16,0,0,1,.63-1.34C8,16.17,5.62,15.31,5.62,11.5a3.87,3.87,0,0,1,1-2.71,3.58,3.58,0,0,1,.1-2.64s.84-.27,2.75,1a9.63,9.63,0,0,1,5,0c1.91-1.29,2.75-1,2.75-1a3.58,3.58,0,0,1,.1,2.64,3.87,3.87,0,0,1,1,2.71c0,3.82-2.34,4.66-4.57,4.91a2.39,2.39,0,0,1,.69,1.85V21c0,.27.16.59.67.5A10,10,0,0,0,12,2Z"></path> </g></svg>
+                    GitHub Link 
+                    </button></a></div> 
+            </div>
+            
+        </div>
+        <div class="moreonjava">
+            <div class="purple hidden2" style="font-size: 30px; margin-left: 35px; text-align: center;">More projects using java so far:</div>
+            <div class="projectonjava">
+                <a target="_blank" href="https://github.com/Ayush-singh141/Code_Alpha_Hotel_Reservation_System.git"><span style="width: 250px; height: 250px; "><img class="hidden2" style="width: 250px;" src="https://cdni.iconscout.com/illustration/premium/thumb/hotel-7208441-5868697.png" alt="hmp"> <hmp class="hidden2">Hotel Reservation System</hmp></span></a>
+                <a target="_blank" href="https://github.com/Ayush-singh141/CodeAlpha_Student_Grade_Tracker.git"><span style="width: 250px; height: 250px; "><img class="hidden2" style="width: 250px; padding-bottom: 10px;" src="https://cdni.iconscout.com/illustration/premium/thumb/c-grade-student-7342969-5994071.png" alt="sgt"><sgt class="hidden2">Student Grade Tracker</sgt></span></a>
+            </div>
+        </div>
+        <div class="projects3">
+        <div class="hidden2" style="font-size: 40px; margin-left: 35px; background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6rOrawsbIoIzioqgBZ9p9C0sUpuPAXu-3w&s');background-position: top; background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent; text-align: center; padding-top: 40px;">Projects Using HTML,CSS And JAVASCRIPT</div>
+             <div class="projectonjava">
+                <a target="_blank" href="https://ayush-singh141.github.io/CODSOFT_calculator/"><span style="width: 250px; height: 250px; "><img class="hidden2" style="width: 250px;" src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" alt="calculator"> <hmp class="hidden2">Simple Calculator</hmp></span></a>
+                <a target="_blank" href="https://ayush-singh141.github.io/CODSOFT_landing_page/"><span style="width: 250px; height: 250px; "><img class="hidden2" style="width: 250px;" src="https://cdn-icons-png.flaticon.com/512/1458/1458523.png" alt="landing-page"> <lp class="hidden2">Landing Page</lp></span></a>
+            </div>
+        </div>
+        <div id="about">
+            <h1 class="hidden">About-me</h1>
+            <hr style="color: white; margin-left: 30px; margin-right: 30px; position: relative; top: -2rem;">
+            <dt style="margin-left: 2rem;font-size: 3rem; color:rgb(228, 6, 228);" class="hidden2" >Who am i?</dt>
+            <dd style="line-height: 2rem;">
+                <li class="hidden2">Hi! I am <purple>Ayush Singh</purple> from Kanpur , U.P. </li>
+                <li class="hidden2">I am currently persuing <purple>B.C.A</purple> from <purple>Kanpur Institute Of Technology</purple>.</li>
+                <li class="hidden2">My Hobbies are <red style="color: red;">Coding</red> , <blue style="color: blue;">Gaming</blue> and <lightblue style="color: rgb(87, 149, 225);">Watching Anime</lightblue>.</li>
+            </dd>    
+            <br>
+            <dt style="margin-left: 2rem;font-size: 3rem; color:rgb(228, 6, 228);" class="hidden2" >Skills</dt> 
+            <div class="imgcontainer">  
+            <dd style="line-height: 2rem; font-size: 1rem;">
+                <li class="hidden2">Video Editing</li>
+                <li class="hidden2">HTML , CSS and JavaScript</li>
+                <li class="hidden2">Data Structures And Algorithm</li>
+                <li class="hidden2">Java</li>
+                <li class="hidden2">Python</li>
+                <li class="hidden2">C / C++</li>
+            </dd>
+          </div>
+            <br>
+            <dt style="margin-left: 2rem;font-size: 3rem; color:rgb(228, 6, 228);" class="hidden2" >Experience</dt>
+            <dd style="line-height: 2rem; font-size: 1rem;">
+                <li class="hidden2">I am currently Working as an Intern at <red>CodeAlpha</red> And <red>CodSoft</red>.</li> 
+                <li class="hidden2">I have Done projects on Every programming language I know So Far</li>
+                <li class="hidden2">I am Currently Learning <red>Data Structures And Algorithm</red> and <red>Java Database Connectivity</red>.</li>
+            </dd>
+            
+            <div class="btn-res">
+           <spanw style="margin-left: 2rem;"><a target="_blank" href="resume-ayush-singh.pdf" download><button id="btn-res" class="hidden2">Download My Resume</button></a></spanw>
+            </div>        
+        </div>
+        <div id="contact" class="hidden3">
+            <div class="title-contact hidden2">Wanna Connect?</div>
+            <!--<div class="contact-details">
+                <ol>
+                    <li>Email: ayushsinghgaur2100@gmail.com</li>
+                    <li>Instagram: 777one4one</li>
+                    <li>Wattsapp: 9794580488</li>
+                </ol>
+            </div>-->
+            <div class="contact-details">
+                <div class="email hidden3">write me an email! </div>
+                <a href="https://formsubmit.co/el/direni"><button type="submit" class="hidden3">Send Email</button></a>
+                <div class="or-contact hidden3">Or contact me at :</div>
+                <ol>
+                    <a  target="_blank"   href="https://www.linkedin.com/in/ayush-singh-a619622a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin hidden3"><li>Linkedin</li></a>
+                    <a target="_blank"   href="https://www.instagram.com/ezydebug?igsh=eHgwM3pkN2FndHAx"><li class="instagram hidden3">Instagram</li></a>
+                    <a  target="_blank"  href="https://youtube.com/@ezydebug?si=-4kFqt7FpuNUb3AO"><li class="youtube hidden3">Youtube</li></a>
+                </ol>
+            </div>
+        </div>  
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Video Editor', 'Programmer','Web Designer','Web Developer'],
+          typeSpeed: 50,
+        });
+        
+      </script>
+</body>
+</html>
